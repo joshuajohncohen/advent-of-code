@@ -1,6 +1,6 @@
 import strformat, sequtils, strutils
 
-var input = readFile("1.txt").splitLines.filterIt(it.len > 0)
+let input = readFile("1.txt").splitLines.filterIt(it.len > 0)
   # because of the blank line at the end of the file
 
 var password_part1 = 0
